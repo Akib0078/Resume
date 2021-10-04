@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3{
+    color:rgb(2, 119, 119);
+}
+.container{
+    max-width: 1000px;
+    background-color:white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image{
+    width: 100px;
+    height: 120px;
+    border: 7px solid rgb(255, 255, 255);
+    border-radius:50%;
+    float: left;
+}
+.head1{
+    float: left;
+    padding: 30px;
+}
+.head2{
+    float: right;
+    padding: 30px;
+}
+.head2 a{
+    text-decoration: none;
+    color: darkcyan;
+}
+ .head2 a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: solid darkcyan 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+.left-div{
+    width: 40%;
+    float: left;
+}
+.right-div{
+    width: 60%;
+    float:left;
+}
+
+.common-hr{
+    border: solid darkcyan 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+#html{
+    margin-left: 85px;
+}
+#illus{
+    margin-left: 12px;
+}
+#css{
+    margin-left: 95px;
+}
+
+.ref-left{
+    width: 45%;
+    float:left;
+}
+.ref-right{
+    width: 45%;
+    float:left;
+}
+
+.foot{
+    background-color:rgb(3, 109, 109);
+    text-align: center;
+    padding: 10px;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
+    margin: 20;
+    padding-right: 10px;
+}
+.foot a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.foot p{
+    color: white;
+    margin-top: 20px;
+}
+#lol{
+    background-color:darkcyan;
+    padding: 25px;
+    margin: 0 auto;
+}
+#fb{
+    font-size:20px;
+    color:white;
+    padding-right: 2px;
+}
+#insta{
+    font-size:20px;
+    color:white;
+    padding-right: 2px;
+}
+
+@media screen and (max-width:720px) {
+    body{
+        height: 1000px;
+        width: 800px;
+    }
+}
